@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@annotorious/openseadragon": "^3.0.0-pre-alpha-46",
+    "@annotorious/formats": "file:../../annotorious/annotorious-v3/packages/annotorious-formats",
     "openseadragon": "^3.1.0"
   }
 }
