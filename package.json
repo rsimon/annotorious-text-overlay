@@ -1,0 +1,27 @@
+{
+  "name": "annotorious-text-overlay",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/openseadragon": "^3.0.7",
+    "svelte": "^3.58.0",
+    "svelte-preprocess": "^4.10.7",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.2.0"
+  },
+  "dependencies": {
+    "@annotorious/openseadragon": "^3.0.0-pre-alpha-46",
+    "openseadragon": "^3.1.0"
+  }
+}
