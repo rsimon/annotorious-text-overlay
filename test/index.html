@@ -42,7 +42,7 @@
           },
           tileSources: [{
             type: 'image',
-            url: '33054-000002-0001.jpg'
+            url: '33054-000002-0001-scaled.jpg'
           }]
         });
 
@@ -52,6 +52,7 @@
           .then(res => res.text())
           .then(xml => {
             const annotations = parseALTO(xml);
+            console.log(annotations);
             anno.setAnnotations(annotations);
           });
 
